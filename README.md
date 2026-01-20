@@ -14,12 +14,12 @@
 2. hb_model_info：解析hbm和bc编译时的依赖及参数信息、onnx模型基本信息，同时支持对bc可删除节点进行查询
 - hb_model_info ${model_file};
 - 重点关注输入和输出;
-     '''
+     '''text
      input_y  input  [1, 224, 224, 1] UINT8 
      input_uv input  [1, 112, 112, 2] UINT8 
    ​  output   output [1, 1000]        FLOAT32
 - deeplabv3+的输出信息为：​
-     '''
+     '''text
      2026-01-19 16:22:17,965 INFO input.1_y  input  [1, 1024, 2048, 1] UINT8
      2026-01-19 16:22:17,966 INFO input.1_uv input  [1, 512, 1024, 2]  UINT8
      2026-01-19 16:22:17,966 INFO 705        output [1, 1, 1024, 2048] INT8
