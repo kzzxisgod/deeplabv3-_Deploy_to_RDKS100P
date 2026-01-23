@@ -2,6 +2,8 @@
 模型转化工具链：天工开物（OE）
 参考OE用户手册，完成对deeplabv3+模型的c++板端部署
 
+更多详细部署流程可查看我的博客：http://www.kzzxisgod.top/index.php/2026/01/23/rdks100p-moxingbushuquanliucheng/
+
 # 以deeplabv3+为例，记录一次模型部署流程。
 1. hb_compile: 将onnx格式模型转化为hbm模型
 - 检查onnx模型中有那些算子是BPU不支持的
